@@ -2,34 +2,101 @@ body {
     scroll-behavior: smooth;
     background: #000;
   }
-.nav-title-vch{
-    margin-left: 2em;
+
+  /*  Barra de navegacion  */
+.nav-title-vcl{
+padding-left: 1rem;
+    margin:auto;
+}
+.nav-icon{
+    padding-left: 5%;
 }
 
 .navbar{
     position:fixed;
     width:100%;
     z-index:10;
-    max-width:100%;
+    /* max-width:100%; */
     /* background: transparent; */
 }
 .navbar-collapse .navbar-nav .nav-link {
     color: #fff;
   }
-.color-bg-items{
-    color: #3f4649;
+
+
+/*quienes somos */
+
+.section-title-vcl{
+    color: #fff;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.h2-section-title{
+    font-weight: 300;
+    font-size:large;
 }
 
-.whoWeAre{
-    display: inline-block;
+hr{
+    color:#1C7CD5;
+    border-radius: 10px;
+    padding-top: 0.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    opacity: .5;
+    text-align: center;
+
 }
+.whoWeAre-card{
+    max-width: 18rem;
+}
+
 .whoWeAre-card .card-header{
     background-color: #1C7CD5;
     text-align: center;
+    border-radius: 10px;
 }
 .card{
     margin-left: 10%;
+;
+}
+.card-text{
+    text-align: left;
+    font-size: small;
+    font-weight: 200;
 }
 .fa-plane{
     color:#fff ;
+}
+@media (max-width:992px)
+ {
+    .section-whoWeAre{
+       display: none;
+    }
+ }
+
+ /* Destacados */
+ .highlights-container{
+    color: rgb(197, 188, 188);
+ }
+ .card-title{
+    font-size: medium;
+    font-weight: 800; 
+    padding-bottom: 1em;
+ }
+ .card-highlight{
+   /* background: transparent; */
+   /* border-radius: 10px; */
+ }
+ .card-body-highlights{
+    background-color: #1C7CD5;
+   
+ }
+ .card-text-highlights{
+    font-weight: 800; 
+ }
+
+ /* footer */
+.footer-vcl{
+    background-color: #1C7CD5;
 }
