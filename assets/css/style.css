@@ -7,7 +7,7 @@ body {
 }
 
 .navbar{
-    position:absolute;
+    position:fixed;
     width:100%;
     z-index:10;
     max-width:100%;
@@ -16,3 +16,20 @@ body {
 .navbar-collapse .navbar-nav .nav-link {
     color: #fff;
   }
+.color-bg-items{
+    color: #3f4649;
+}
+
+.whoWeAre{
+    display: inline-block;
+}
+.whoWeAre-card .card-header{
+    background-color: #1C7CD5;
+    text-align: center;
+}
+.card{
+    margin-left: 10%;
+}
+.fa-plane{
+    color:#fff ;
+}
