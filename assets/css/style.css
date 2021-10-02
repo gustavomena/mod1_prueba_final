@@ -73,6 +73,9 @@ hr{
     .section-whoWeAre{
        display: none;
     }
+    .card-highlight{
+        margin-bottom: 1rem;
+    }
  }
 
  /* Destacados */
