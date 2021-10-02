@@ -1,3 +1,5 @@
+// cargando el texto de los parrafos por js para que sea mas limpio el codigo html
+
 const whoWeAre_Card1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius lorem sed tortor ullamcorper placerat. Aenean facilisis feugiat urna a consectetur. Donec a dui posuere, porta elit eu, rhoncus metus. Phasellus nec dolor suscipit, aliquet orci ut, auctor purus. Donec ornare sollicitudin maximus. Quisque non dapibus turpis, et sodales massa. Nam ac erat aliquam";
 
 document.getElementById("txtCard1").innerHTML = whoWeAre_Card1;
